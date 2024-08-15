@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/YehYuHung/ANCO_Web/static/css/main.1bfa26ea.css",
+    "main.js": "/YehYuHung/ANCO_Web/static/js/main.0a334598.js",
+    "static/media/sunny_AD.jpg": "/YehYuHung/ANCO_Web/static/media/sunny_AD.48d485007e17ab86d6af.jpg",
+    "static/media/napoli_AD.jpg": "/YehYuHung/ANCO_Web/static/media/napoli_AD.178fa628fb214953b4ea.jpg",
+    "static/media/pie_Early.jpg": "/YehYuHung/ANCO_Web/static/media/pie_Early.146d52a063966691a7c8.jpg",
+    "static/media/father_AD.jpg": "/YehYuHung/ANCO_Web/static/media/father_AD.98862e86ed933aaf233b.jpg",
+    "static/media/pie_Berry.jpg": "/YehYuHung/ANCO_Web/static/media/pie_Berry.cbd1855206047e97cf21.jpg",
+    "static/media/pie_Choco.jpg": "/YehYuHung/ANCO_Web/static/media/pie_Choco.6dbff62fdbd4eb341cfa.jpg",
+    "static/media/pie_Matcha.jpg": "/YehYuHung/ANCO_Web/static/media/pie_Matcha.d36368b3d226ec2c44d9.jpg",
+    "static/media/pie_Taro.jpg": "/YehYuHung/ANCO_Web/static/media/pie_Taro.85eb4d416c0fd3bfcd03.jpg",
+    "index.html": "/YehYuHung/ANCO_Web/index.html",
+    "main.1bfa26ea.css.map": "/YehYuHung/ANCO_Web/static/css/main.1bfa26ea.css.map",
+    "main.0a334598.js.map": "/YehYuHung/ANCO_Web/static/js/main.0a334598.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bfa26ea.css",
+    "static/js/main.0a334598.js"
+  ]
+}
