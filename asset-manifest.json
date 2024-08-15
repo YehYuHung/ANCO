@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ANCO_Web/static/css/main.1bfa26ea.css",
-    "main.js": "/ANCO_Web/static/js/main.415cc966.js",
-    "static/media/sunny_AD.jpg": "/ANCO_Web/static/media/sunny_AD.48d485007e17ab86d6af.jpg",
-    "static/media/napoli_AD.jpg": "/ANCO_Web/static/media/napoli_AD.178fa628fb214953b4ea.jpg",
-    "static/media/pie_Early.jpg": "/ANCO_Web/static/media/pie_Early.146d52a063966691a7c8.jpg",
-    "static/media/father_AD.jpg": "/ANCO_Web/static/media/father_AD.98862e86ed933aaf233b.jpg",
-    "static/media/pie_Berry.jpg": "/ANCO_Web/static/media/pie_Berry.cbd1855206047e97cf21.jpg",
-    "static/media/pie_Choco.jpg": "/ANCO_Web/static/media/pie_Choco.6dbff62fdbd4eb341cfa.jpg",
-    "static/media/pie_Matcha.jpg": "/ANCO_Web/static/media/pie_Matcha.d36368b3d226ec2c44d9.jpg",
-    "static/media/pie_Taro.jpg": "/ANCO_Web/static/media/pie_Taro.85eb4d416c0fd3bfcd03.jpg",
-    "index.html": "/ANCO_Web/index.html",
-    "main.1bfa26ea.css.map": "/ANCO_Web/static/css/main.1bfa26ea.css.map",
-    "main.415cc966.js.map": "/ANCO_Web/static/js/main.415cc966.js.map"
+    "main.css": "/ANCO/static/css/main.1bfa26ea.css",
+    "main.js": "/ANCO/static/js/main.b84d1227.js",
+    "static/media/sunny_AD.jpg": "/ANCO/static/media/sunny_AD.48d485007e17ab86d6af.jpg",
+    "static/media/napoli_AD.jpg": "/ANCO/static/media/napoli_AD.178fa628fb214953b4ea.jpg",
+    "static/media/pie_Early.jpg": "/ANCO/static/media/pie_Early.146d52a063966691a7c8.jpg",
+    "static/media/father_AD.jpg": "/ANCO/static/media/father_AD.98862e86ed933aaf233b.jpg",
+    "static/media/pie_Berry.jpg": "/ANCO/static/media/pie_Berry.cbd1855206047e97cf21.jpg",
+    "static/media/pie_Choco.jpg": "/ANCO/static/media/pie_Choco.6dbff62fdbd4eb341cfa.jpg",
+    "static/media/pie_Matcha.jpg": "/ANCO/static/media/pie_Matcha.d36368b3d226ec2c44d9.jpg",
+    "static/media/pie_Taro.jpg": "/ANCO/static/media/pie_Taro.85eb4d416c0fd3bfcd03.jpg",
+    "index.html": "/ANCO/index.html",
+    "main.1bfa26ea.css.map": "/ANCO/static/css/main.1bfa26ea.css.map",
+    "main.b84d1227.js.map": "/ANCO/static/js/main.b84d1227.js.map"
   },
   "entrypoints": [
     "static/css/main.1bfa26ea.css",
-    "static/js/main.415cc966.js"
+    "static/js/main.b84d1227.js"
   ]
 }
