@@ -2,7 +2,7 @@
   "name": "anco_dessert",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/YehYuHung/ANCO_Web",
+  "homepage": "https://yehyuhung.github.io/ANCO",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set BUILD_PATH=./app && react-scripts build",
     "test": "react-scripts test",
     "deploy": "npm run build && gh-pages -d build"
   },

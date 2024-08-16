@@ -13,6 +13,7 @@ const buttonStyle = {
   right: "1.25rem",
   bottom: "1.25rem",
   opacity: 0.5,
+  cursor: "pointer",
 };
 
 const ForwardTop = ({ style, ...rest }) => {

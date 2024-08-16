@@ -32,21 +32,6 @@ const pages = [
 
 function Navbar() {
   const [current, setCurrent] = useState("");
-  const [fixNavBar, setFixNavBar] = useState(false);
-
-  useEffect(() => {
-    const checkScrolling = () => {
-      setFixNavBar(
-        document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
-      );
-    };
-
-    window.addEventListener("scroll", checkScrolling);
-
-    return () => {
-      window.removeEventListener("scroll", checkScrolling);
-    };
-  }, [fixNavBar]);
 
   const renderedNavLink = pages.map((page) => {
     return {
@@ -63,9 +48,7 @@ function Navbar() {
     setCurrent(event.key);
   };
 
-  const navbarClassName = `w-full grid grid-cols-2 gap-x-3 bg-gradient-to-r from-emerald-700 to-teal-200 ${
-    fixNavBar && "fixed top-0 z-50"
-  }`;
+  const navbarClassName = `w-full grid grid-cols-2 gap-x-3 bg-gradient-to-r from-emerald-700 to-teal-200 sticky top-0 z-50`;
 
   return (
     <div className={navbarClassName}>
