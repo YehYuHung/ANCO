@@ -33,7 +33,9 @@ function ImageCard({ title, picture, description, context }) {
     <Card hoverable style={cardStyle} cover={image} styles={cardDetailStyle}>
       <Meta title={title} description={description} />
       <div style={contentStyle}>
-        <a onClick={handleClick}>Show more...</a>
+        <a onClick={handleClick} href="/">
+          Show more...
+        </a>
       </div>
     </Card>
   );
