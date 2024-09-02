@@ -48,12 +48,12 @@ function Navbar() {
     setCurrent(event.key);
   };
 
-  const navbarClassName = `w-full grid grid-cols-2 gap-x-3 bg-gradient-to-r from-emerald-700 to-teal-200 sticky top-0 z-50`;
+  const navbarClassName = `w-full flex flex-row justify-between px-4 bg-gradient-to-r from-emerald-700 to-teal-200 sticky top-0`;
 
   return (
     <div className={navbarClassName}>
-      <div className="self-center text-white text-2xl p-2">ANCO dessert</div>
-      <div className="flex justify-end">
+      <div className="self-center text-white text-2xl">ANCO dessert</div>
+      <div>
         <Menu
           className="bg-inherit"
           onClick={handleClick}
