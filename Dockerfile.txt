@@ -1,9 +1,22 @@
-FROM node:20.11.1-alpine
+# only ARG variable can using on FROM tags
+ARG NODE_VERSION=20.11.1-alpine
+FROM node:${NODE_VERSION}
+
+LABEL description="A website about ANCO dessert" \
+	  version="1.0.0" \
+	  owner="MorgaYeh"
 
 ENV PORT=3010
-WORKDIR ./DocBuild
-COPY . .
+ENV WORK_PLACE=/ANCO
+
+WORKDIR ${WORK_PLACE}
+COPY public/ $WORK_PLACE/public
+COPY src/ $WORK_PLACE/src
+COPY package.json $WORK_PLACE/
+COPY tailwind.config.js $WORK_PLACE/
 
 RUN npm install
 
-ENTRYPOINT ["npm","run", "start"]
+ENTRYPOINT ["npm", "run"]
+
+CMD ["start"]
